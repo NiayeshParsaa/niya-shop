@@ -110,7 +110,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProvider) {
       if (token){
        setIsLogin(true); 
       }
-    })
+    },[]);
 
 
     return (
